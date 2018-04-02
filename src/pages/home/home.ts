@@ -9,6 +9,7 @@ import { Dice, SimpleDice, ExplosiveDice, Sequence, FateSequence } from '../../a
 export class HomePage {
   available_dice: Dice[];
   staged_dice: Dice[];
+  markup: string;
   rolls: [Dice[], number][];
   staged: boolean = false;
   rolled: boolean = false;
